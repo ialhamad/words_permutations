@@ -68,7 +68,7 @@ function autocomplete(inp, arr) {
   }
   function addCurrentElm(val) {
     const span = document.createElement("span");
-    span.addEventListener("dblclick", e => {
+    span.addEventListener("click", e => {
       e.preventDefault();
       span.remove();
     });
